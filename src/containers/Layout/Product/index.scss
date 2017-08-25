@@ -1,0 +1,25 @@
+.product-component {
+  width: 30%;
+	margin: 0 0 30px;
+	position: relative;
+	padding: 10px 10px 40px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	.imgPost {
+		width: 100%;
+		margin: 0 0 20px;
+	}
+	.title {
+		font-size: 20px;
+		font-weight: bold;
+		margin: 0 0 20px;
+	}
+	.imgLike, .imgUnlike{
+		position: absolute;
+		bottom: 5px;
+		left: 10px;
+		width: 30px;
+		height: 30px;
+	}
+}
+
